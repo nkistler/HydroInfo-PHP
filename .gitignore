@@ -1,0 +1,5 @@
+# DB connection file
+models/db-settings.php
+
+# Temporary files
+*~

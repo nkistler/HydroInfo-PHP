@@ -1,0 +1,541 @@
+[16-Apr-2014 00:03:22 UTC] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (42000/1044): Access denied for user 'capst910_cst401'@'%' to database 'capst910_test' in /home/capst910/public_html/models/db-settings.php on line 21
+[16-Apr-2014 00:38:49 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/funcs.php on line 1202
+[16-Apr-2014 00:39:02 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/funcs.php on line 1202
+[16-Apr-2014 00:39:29 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/funcs.php on line 1202
+[16-Apr-2014 03:12:56 UTC] PHP Fatal error:  Class 'loggedInUser' not found in /home/capst910/public_html/login.php on line 61
+[16-Apr-2014 03:16:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting T_FUNCTION in /home/capst910/public_html/models/class.user.php on line 155
+[16-Apr-2014 03:22:14 UTC] PHP Fatal error:  Call to undefined function securePage() in /home/capst910/public_html/account.php on line 7
+[16-Apr-2014 03:23:38 UTC] PHP Fatal error:  Call to undefined function securePage() in /home/capst910/public_html/index.php on line 7
+[16-Apr-2014 03:31:05 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/funcs.php on line 1263
+[16-Apr-2014 03:33:11 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/funcs.php on line 1263
+[16-Apr-2014 03:36:46 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/class.user.php on line 150
+[17-Apr-2014 20:01:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/account.php on line 75
+[18-Apr-2014 08:43:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/account.php on line 75
+[18-Apr-2014 08:44:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/account.php on line 75
+[18-Apr-2014 08:52:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/account.php on line 75
+[18-Apr-2014 08:52:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/account.php on line 75
+[18-Apr-2014 19:21:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/capst910/public_html/account.php on line 91
+[18-Apr-2014 19:21:39 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/capst910/public_html/account.php on line 91
+[18-Apr-2014 19:21:52 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/capst910/public_html/account.php on line 91
+[18-Apr-2014 19:22:49 UTC] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ',' or ';' in /home/capst910/public_html/account.php on line 91
+[18-Apr-2014 19:32:15 UTC] PHP Fatal error:  Call to undefined function getUserSensors() in /home/capst910/public_html/account.php on line 91
+[18-Apr-2014 20:41:59 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/class.user.php on line 153
+[18-Apr-2014 20:45:37 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/capst910/public_html/models/class.user.php on line 153
+[18-Apr-2014 21:39:08 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1333
+[18-Apr-2014 21:40:21 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1333
+[18-Apr-2014 21:47:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1310
+[18-Apr-2014 22:03:53 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/capst910/public_html/models/funcs.php on line 1330
+[18-Apr-2014 22:04:22 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1336
+[18-Apr-2014 22:05:34 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1336
+[18-Apr-2014 22:05:39 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1336
+[18-Apr-2014 22:14:35 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1336
+[18-Apr-2014 22:14:38 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1336
+[18-Apr-2014 22:14:40 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/capst910/public_html/models/funcs.php on line 1336
+[18-Apr-2014 23:04:30 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/capst910/public_html/table.php on line 18
+[18-Apr-2014 23:16:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:16:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:16:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:17:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:17:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:17:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:17:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:17:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:18:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:19:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 12
+[18-Apr-2014 23:20:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/table.php on line 13
+[18-Apr-2014 23:21:06 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/table.php on line 24
+[18-Apr-2014 23:21:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/table.php on line 24
+[18-Apr-2014 23:21:45 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/table.php on line 24
+[18-Apr-2014 23:22:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 13
+[18-Apr-2014 23:23:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 13
+[18-Apr-2014 23:23:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 13
+[18-Apr-2014 23:23:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 13
+[18-Apr-2014 23:23:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 13
+[18-Apr-2014 23:25:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:27:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:28:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:28:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:29:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 53
+[18-Apr-2014 23:45:56 UTC] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/capst910/public_html/table.php on line 42
+[18-Apr-2014 23:57:51 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/table.php on line 34
+[18-Apr-2014 23:58:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 19
+[18-Apr-2014 23:58:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 19
+[20-Apr-2014 01:29:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 57
+[20-Apr-2014 01:45:27 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/capst910/public_html/table.php on line 57
+[20-Apr-2014 01:45:57 UTC] PHP Parse error:  syntax error, unexpected T_INC in /home/capst910/public_html/table.php on line 61
+[20-Apr-2014 01:46:03 UTC] PHP Parse error:  syntax error, unexpected T_INC in /home/capst910/public_html/table.php on line 61
+[20-Apr-2014 02:21:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:24:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:24:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:24:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:24:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:24:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:24:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:25:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:25:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:25:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:26:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:27:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:27:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:27:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:32:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:32:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:32:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:33:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:35:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/left-nav.php on line 12
+[20-Apr-2014 02:35:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:36:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:37:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:38:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 02:40:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 02:40:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 02:41:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 02:41:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 02:41:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 02:46:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 04:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 07:14:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/table.php on line 58
+[20-Apr-2014 07:14:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/capst910/public_html/models/funcs.php on line 1313
+[20-Apr-2014 08:11:38 UTC] PHP Fatal error:  Cannot pass parameter 3 by reference in /home/capst910/public_html/models/class.user.php on line 161
+[20-Apr-2014 16:19:27 UTC] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ',' or ';' in /home/capst910/public_html/table.php on line 121
+[28-Apr-2014 00:26:39 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:45 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:48 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:50 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:51 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:53 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:54 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:55 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:26:56 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:27:01 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:27:02 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:27:04 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:27:05 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 00:27:07 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 17:20:20 UTC] PHP Fatal error:  Call to undefined function fetchUserDetails() in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 17:59:26 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:00:06 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:00:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:03:59 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:36 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:39 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:39 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:41 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:41 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:42 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:43 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:07:44 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:10 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:20 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:24 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:26 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:27 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:28 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:30 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:35 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:40 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:43 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:44 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:44 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:44 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:49 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:08:49 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:11:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:11:55 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:11:57 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:11:59 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:02 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:02 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:02 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:02 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:03 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:03 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:03 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:06 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:08 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:12:14 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:45 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:46 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:47 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:48 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:49 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:49 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:49 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:50 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:50 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:50 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:51 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:53 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:54 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:54 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:55 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:56 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:56 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:56 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:57 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:58 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:58 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:59 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:14:59 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:15:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:15:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:15:27 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:21:55 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:21:56 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:21:58 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:00 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:01 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:02 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:03 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:04 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:06 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:07 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:10 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:11 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:11 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:12 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:12 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:13 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:14 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:14 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:14 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:15 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:15 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:33 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:34 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:35 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:35 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:36 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:36 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:36 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:37 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:37 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:37 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:22:38 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:07 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:08 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:08 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:09 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:10 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:10 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:10 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:11 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:23:11 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:35:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 87
+[28-Apr-2014 18:35:49 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 87
+[28-Apr-2014 18:35:50 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 87
+[28-Apr-2014 18:35:51 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 87
+[28-Apr-2014 18:35:52 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 87
+[28-Apr-2014 18:36:54 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:55 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:55 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:56 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:56 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:57 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:57 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:57 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:57 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:58 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:58 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:58 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:59 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:59 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:36:59 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:00 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:00 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:00 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:00 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:01 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:01 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:02 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:02 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:03 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:37:03 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 11
+[28-Apr-2014 18:38:41 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:42 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:42 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:43 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:45 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:46 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:46 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:47 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:38:47 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 13
+[28-Apr-2014 18:39:48 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:49 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:49 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:50 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:50 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:51 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:52 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:52 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:52 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:52 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:53 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:53 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:56 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:39:57 UTC] PHP Parse error:  syntax error, unexpected T_IF in /home/capst910/public_html/mobile-login.php on line 12
+[28-Apr-2014 18:44:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:44:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:44:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 20
+[28-Apr-2014 18:44:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:44:23 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:44:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 20
+[28-Apr-2014 18:44:27 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:44:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:44:27 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 20
+[28-Apr-2014 18:45:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:01 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:01 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:10 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:11 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:13 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:14 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:15 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:45:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 8
+[28-Apr-2014 18:45:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/capst910/public_html/mobile-login.php on line 9
+[28-Apr-2014 18:45:15 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/capst910/public_html/mobile-login.php on line 19
+[28-Apr-2014 18:57:21 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:57:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:25 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:32 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:44 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:50 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:52 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:58:59 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 18:59:01 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/capst910/public_html/models/funcs.php on line 322
+[28-Apr-2014 20:26:13 UTC] PHP Fatal error:  Cannot use [] for reading in /home/capst910/public_html/mobile-login.php on line 32
+[28-Apr-2014 20:27:01 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/capst910/public_html/mobile-login.php on line 32
+[28-Apr-2014 20:27:02 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/capst910/public_html/mobile-login.php on line 32
+[28-Apr-2014 20:27:03 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/capst910/public_html/mobile-login.php on line 32
+[28-Apr-2014 20:27:06 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/capst910/public_html/mobile-login.php on line 32
+[28-Apr-2014 20:27:08 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/capst910/public_html/mobile-login.php on line 32
