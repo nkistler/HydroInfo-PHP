@@ -10,16 +10,31 @@ if(!empty($_POST))
 	#Match mySQL entry with entered username and password
 	$username = sanitize($_POST["username"]);
 	$password = trim($_POST["password"]);
-	$result = mysqli_query($mysqli,"SELECT * FROM users where user_name='$username'");
+	$result = mysqli_query($mysqli,"SELECT id, password FROM users where user_name='$username'");
 	$row = mysqli_fetch_array($result);
 	if($row)
 	{
-		$hashed_pass =  $row[3];
+		$user_id = $row[0];
+		$hashed_pass =  $row[1];
 		$entered_pass = generateHash($password, $hashed_pass);
 		if ($hashed_pass == $entered_pass)
+		{
+			$nodes = mysqli_query($mysqli,"SELECT id, latitude, longitude FROM sensors where user_id='$user_id'");
+			$records = mysqli_fetch_array($nodes);
 			echo "Success";
+			if ($records)
+			{
+				echo ",";
+				foreach ($records as $val)
+				{
+					echo $records[0].",".$records[1].",".$records[2].",";
+				}
+			}
+		}
 		else #if password doesn't match...
+		{
 			echo "Error...";
+		}
 	}
 	else #if user doesn't exist in database...
 	{
