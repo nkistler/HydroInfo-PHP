@@ -10,18 +10,23 @@ if(!empty($_POST))
 	#Match mySQL entry with entered username and password
 	$username = sanitize($_POST["username"]);
 	$password = trim($_POST["password"]);
-	$result = mysqli_query($mysqli,"SELECT id, password FROM users where user_name='$username'");
+	$result = mysqli_query($mysqli,"SELECT id, display_name, password, active, title FROM users where user_name='$username'");
 	$row = mysqli_fetch_array($result);
 	if($row)
 	{
 		$user_id = $row[0];
-		$hashed_pass =  $row[1];
+		$display_name = $row[1];
+		$hashed_pass =  $row[2];
+		$is_active = $row[3];
+		$title = $row[4];
 		$entered_pass = generateHash($password, $hashed_pass);
-		if ($hashed_pass == $entered_pass)
+		if ($hashed_pass == $entered_pass & $is_active == 1)
 		{
+			#Echo out user data to be held by application. Done with comma separated values for ease of processing.
+			echo "Success,".$user_id.",".$username.",".$display_name.",".$hashed_pass.",".$title;
+			#Retrieve data on user accessible nodes.
 			$nodes = mysqli_query($mysqli,"SELECT id, latitude, longitude FROM sensors where user_id='$user_id'");
 			$records = mysqli_fetch_array($nodes);
-			echo "Success";
 			if ($records)
 			{
 				echo ",";
