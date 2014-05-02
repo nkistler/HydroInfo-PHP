@@ -11,26 +11,49 @@ if(!empty($_POST))
 	$username = sanitize($_POST["username"]);
 	$password = trim($_POST["password"]);
 	$result = mysqli_query($mysqli,"SELECT id, display_name, password, active, title FROM users where user_name='$username'");
-	$row = mysqli_fetch_array($result);
+	$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	if($row)
 	{
-		$user_id = $row[0];
-		$display_name = $row[1];
-		$hashed_pass =  $row[2];
-		$is_active = $row[3];
-		$title = $row[4];
+		$user_id = $row['id'];
+		$display_name = $row['display_name'];
+		$hashed_pass =  $row['password'];
+		$is_active = $row['active'];
+		$title = $row['title'];
 		$entered_pass = generateHash($password, $hashed_pass);
-		if ($hashed_pass == $entered_pass & $is_active == 1)
+		if ($hashed_pass == $entered_pass and $is_active == 1)
 		{
 			#Echo out user data to be held by application. Done with comma separated values for ease of processing.
 			echo "Success,".$user_id.",".$username.",".$display_name.",".$hashed_pass.",".$title;
 			#Retrieve data on user accessible nodes.
-			$result2 = mysqli_query($mysqli,"SELECT id, coordinates FROM sensors where user_id='$user_id'");
-			while ($row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC))
-			{ 
-   				echo ",".$row2['id'].",".$row2['coordinates'];
+			$result2 = null;
+			if ($title == "Administrator" or $title == "Premium Member")
+			{
+				$result2 = mysqli_query($mysqli,"SELECT id, coordinates FROM sensors");
 			}
-	
+			else
+			{
+				$result2 = mysqli_query($mysqli,"SELECT id, coordinates FROM sensors where user_id='$user_id'");
+			}
+			if ($result2)
+			{
+				$sensorIds = array();
+				while ($row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC))
+				{ 
+					$sensorIds[] = $row2['id'];
+		   			echo ",".$row2['id'].",".$row2['coordinates'];
+				}
+				foreach ($sensorIds as $sensorId)
+				{
+					$result3 = mysqli_query($mysqli,"SELECT id, file_timestamp, sensor_1, sensor_2, sensor_3, temperature, weather_condition, wind_speed, wind_direction, humidity, precipitation FROM measurements where sensor_id='$sensorId'");
+					if ($result3)
+					{
+						while ($row3 = mysqli_fetch_array($result3, MYSQLI_ASSOC))
+						{
+							echo ",".$sensorId.",".$row3['id'].",".$row3['file_timestamp'].",".$row3['sensor_1'].",".$row3['sensor_2'].",".$row3['sensor_3'].",".$row3['temperature'].",".$row3['weather_condition'].",".$row3['wind_speed'].",".$row3['wind_direction'].",".$row3['humidity'].",".$row3['precipitation'];
+						}
+					}
+				}
+			}
 		}
 		else #if password doesn't match...
 		{
