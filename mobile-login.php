@@ -23,11 +23,13 @@ if(!empty($_POST))
 		if ($hashed_pass == $entered_pass & $is_active == 1)
 		{
 			#Echo out user data to be held by application. Done with comma separated values for ease of processing.
-			echo "Success,".$user_id.",".$username.",".$display_name.",".$hashed_pass.",".$title.",";
+			echo "Success,".$user_id.",".$username.",".$display_name.",".$hashed_pass.",".$title;
 			#Retrieve data on user accessible nodes.
 			$result2 = mysqli_query($mysqli,"SELECT id, coordinates FROM sensors where user_id='$user_id'");
-			$row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC); 
-   			echo $row2['id'].",".$row2['coordinates'];
+			while ($row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC))
+			{ 
+   				echo ",".$row2['id'].",".$row2['coordinates'];
+			}
 	
 		}
 		else #if password doesn't match...
