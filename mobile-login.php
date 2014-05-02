@@ -41,6 +41,7 @@ if(!empty($_POST))
 				$numOfSensors = 0;
 				$temp2 = "";
 				$numOfMeasurements = 0;
+				#Get number of nodes and related node data
 				while ($row2 = mysqli_fetch_array($result2, MYSQLI_ASSOC))
 				{ 
 					$sensorIds[] = $row2['id'];
@@ -48,12 +49,13 @@ if(!empty($_POST))
 					$numOfSensors += 1;
 				}
 				echo ",".$numOfSensors.$temp;
+				#Query measurement data for each sensor
 				foreach ($sensorIds as $sensorId)
 				{
 					$result3 = mysqli_query($mysqli,"SELECT id, file_timestamp, sensor_1, sensor_2, sensor_3, temperature, weather_condition, wind_speed, wind_direction, humidity, precipitation FROM measurements where sensor_id='$sensorId'");
 					if ($result3)
 					{
-						
+						#Get number of measurements and related measurement data
 						while ($row3 = mysqli_fetch_array($result3, MYSQLI_ASSOC))
 						{
 							$temp2 .= ",".$sensorId.",".$row3['id'].",".$row3['file_timestamp'].",".$row3['sensor_1'].",".$row3['sensor_2'].",".$row3['sensor_3'].",".$row3['temperature'].",".$row3['weather_condition'].",".$row3['wind_speed'].",".$row3['wind_direction'].",".$row3['humidity'].",".$row3['precipitation'];
