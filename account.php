@@ -71,8 +71,6 @@ echo "
 
 echo resultBlock($errors,$successes);
 
-echo "
-Hey, $loggedInUser->displayname. Just so you know, your title at the moment is $loggedInUser->title, and your user id is $loggedInUser->user_id. You registered this account on " . date("M d, Y", $loggedInUser->signupTimeStamp()) . ". ";
 $sensors = $loggedInUser->getUserSensors();
 if ($sensors)
 {
@@ -80,12 +78,15 @@ if ($sensors)
 	echo "
 	<p></p>
 	<form name='updateNodes' action='".$_SERVER['PHP_SELF']."' method='post'>
-	<table class='admin'><tr><th>Node ID number</th><th>Node Location</th><th>Delete</th></tr>";
+	<table class='admin'><tr><th>Node ID</th><th>Node Location</th><th>Delete</th></tr>";
+	$i=0;
+	$alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	foreach ($sensors as $val)
 	{
-		echo "<tr><td><a href='table.php?id=".$val['id']."'>".$val['id']."</a></td>
+		echo "<tr><td><a href='table.php?id=".$val['id']."'>".$alphabetString[$i]."</a></td>
 		<td>".$val['coordinates']."</td>
 		<td><input type='checkbox' name='delete[".$val['id']."]' id='delete[".$val['id']."]' value='".$val['id']."'></td></tr>";
+		$i=$i+1;
 	}
 	echo "
 	</table>";

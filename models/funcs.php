@@ -1296,7 +1296,14 @@ function getLatitudeLongitude($location)
 	}
 	else
 	{
-		return (array('latitude' => $latitude, 'longitude' => $longitude));
+		if ($latitude < -90 or $latitude > 90 or $longitude < -180 or $longitude > 180)
+		{
+			return false;
+		}
+		else
+		{
+			return (array('latitude' => $latitude, 'longitude' => $longitude));
+		}
 	}
 }
 
@@ -1308,6 +1315,8 @@ function getLocationMap($sensors)
 	$minimum_latitude = 180;
 	$minimum_longitude = 180;
 	$markers = "";
+	$i=0;
+	$alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	
 	//This loop gets us our range of geocoodinates and grabs our individual location data.
 	foreach ($sensors as $val)
@@ -1328,7 +1337,8 @@ function getLocationMap($sensors)
 		{
 			$minimum_longitude = $val['longitude'];
 		}
-		$markers .= "&markers=color:blue%7Clabel:".$val['id']."%7C".$val['coordinates'];
+		$markers .= "&markers=color:blue%7Clabel:".$alphabetString[$i]."%7C".$val['coordinates'];
+		$i=$i+1;
 	}
 
 	$center_latitude = ($maximum_latitude+$minimum_latitude)/2;

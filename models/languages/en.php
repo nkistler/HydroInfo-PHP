@@ -123,7 +123,7 @@ $lang = array_merge($lang,array(
 $lang = array_merge($lang,array(
 	"LOCATION_CHAR_LIMIT"			=> "Location data must be between %m1% and %m2% characters in length",
 	"LOCATION_IN_USE"			=> "Location %m1% is already in use",
-	"INVALID_LOCATION_FORMAT"		=> "Location %m1% is improperly formatted (enter two comma seperated values between -180 and 180)",
+	"INVALID_LOCATION_FORMAT"		=> "Location %m1% is improperly formatted (enter two comma seperated values between -90 and 90 for latitude and -180 and 180 for longitude)",
 	"NODE_DELETIONS_SUCCESSFUL"		=> "Successfully deleted %m1% node(s)",
 	"NODE_LOCATION_CREATION_SUCCESSFUL"	=> "Successfully created the node at `%m1%`",
 	));
