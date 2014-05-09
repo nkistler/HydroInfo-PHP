@@ -5,7 +5,7 @@ This will be the page that displays the list of all node for viewing by admin us
 
 require_once("models/config.php");
 if (!securePage($_SERVER['PHP_SELF'])){die();}
-require_once("models/header.php");
+require_once("models/map_header.php");
 
 echo "
 <body>
@@ -25,15 +25,10 @@ $nodeList = fetchNodes();
 if ($nodeList)
 {
 	getLocationMap($nodeList);
-	echo "<table><tr><th>Node ID number</th><th>Node Location</th></tr>";
-	foreach ($nodeList as $val)
-	{
-		echo "<tr><td><a href='table.php?id=".$val['id']."'>".$val['id']."</a></td><td>".$val['coordinates']."</td></tr>";
-	}
-	echo "
-	</table>";
 }
 echo "
+<input type='submit' name='Submit' value='Submit' />
+</form>
 </div>
 <div id='bottom'></div>
 </div>

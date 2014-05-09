@@ -1307,16 +1307,28 @@ function getLatitudeLongitude($location)
 	}
 }
 
+function GetAsJson($url)
+{
+    $ch = curl_init($url);
+    $data = curl_exec($ch);
+    $http_status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    return array($http_status, json_decode($data));
+
+}
+
 //Given an array of sensors, this function will query google maps and embed a display indicating the position of the sensors
 function getLocationMap($sensors)
 {
+	//Iterate through array to get center location for map
+	$center_latitude = 0;
+	$center_longitude = 0;
 	$maximum_latitude = -180;
 	$maximum_longitude = -180;
 	$minimum_latitude = 180;
 	$minimum_longitude = 180;
+	$table = "";
 	$markers = "";
-	$i=0;
-	$alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	
 	//This loop gets us our range of geocoodinates and grabs our individual location data.
 	foreach ($sensors as $val)
@@ -1337,14 +1349,56 @@ function getLocationMap($sensors)
 		{
 			$minimum_longitude = $val['longitude'];
 		}
-		$markers .= "&markers=color:blue%7Clabel:".$alphabetString[$i]."%7C".$val['coordinates'];
-		$i=$i+1;
+		$markers .= "['".$val['id']."', ".$val['latitude'].", ".$val['longitude']."], ";
+		$table .= "<tr><td><a href='table.php?id=".$val['id']."'>".$val['id']."</a></td>
+		<td>".$val['coordinates']."</td>
+		<td><input type='checkbox' name='delete[".$val['id']."]' id='delete[".$val['id']."]' value='".$val['id']."'></td></tr>";
 	}
-
 	$center_latitude = ($maximum_latitude+$minimum_latitude)/2;
 	$center_longitude = ($maximum_longitude+$minimum_longitude)/2;
-	echo "<img src='http://maps.googleapis.com/maps/api/staticmap?center=".$center_latitude.",".$center_longitude;
-	echo "&zoom=11&size=640x400&&maptype=roadmap".$markers."&sensor=false'></img>";
+	$markers = substr($markers, 0, strlen($markers)-2);
+
+	echo "
+	<div id='map' style='width: 800px; height: 400px'></div>
+	<script type='text/javascript'>
+		 var locations = [
+      			".$markers."
+		];
+		var myOptions = {
+			zoom: 10,
+			center: new google.maps.LatLng(".$center_latitude.", ".$center_longitude."),
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+
+		var map = new google.maps.Map(document.getElementById('map'), myOptions);
+
+    		var infowindow = new google.maps.InfoWindow();
+
+    		var marker, i;
+
+		for (i = 0; i < locations.length; i++)
+		{  
+			marker = new google.maps.Marker(
+			{
+				position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+				map: map
+			});
+
+			google.maps.event.addListener(marker, 'click', (function(marker, i)
+			{
+				return function() 
+				{
+					infowindow.setContent(locations[i][0]);
+					infowindow.open(map, marker);
+				}
+			})(marker, i));
+		}
+	</script>
+	<p></p>
+	<form name='updateNodes' action='".$_SERVER['PHP_SELF']."' method='post'>
+	<table class='admin'><tr><th>Node ID</th><th>Node Location</th><th>Delete</th></tr>";
+	
+	echo $table."</table>";
 }
 
 //calculates average value of 1 dimensional array

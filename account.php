@@ -52,7 +52,8 @@ if(!empty($_POST))
 	}
 }
 
-require_once("models/header.php");
+//Need header here so we can add our map script
+require_once("models/map_header.php");
 
 echo "
 <body>
@@ -75,21 +76,6 @@ $sensors = $loggedInUser->getUserSensors();
 if ($sensors)
 {
 	getLocationMap($sensors);
-	echo "
-	<p></p>
-	<form name='updateNodes' action='".$_SERVER['PHP_SELF']."' method='post'>
-	<table class='admin'><tr><th>Node ID</th><th>Node Location</th><th>Delete</th></tr>";
-	$i=0;
-	$alphabetString = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	foreach ($sensors as $val)
-	{
-		echo "<tr><td><a href='table.php?id=".$val['id']."'>".$alphabetString[$i]."</a></td>
-		<td>".$val['coordinates']."</td>
-		<td><input type='checkbox' name='delete[".$val['id']."]' id='delete[".$val['id']."]' value='".$val['id']."'></td></tr>";
-		$i=$i+1;
-	}
-	echo "
-	</table>";
 }
 else
 {
