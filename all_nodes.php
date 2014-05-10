@@ -25,10 +25,21 @@ $nodeList = fetchNodes();
 if ($nodeList)
 {
 	getLocationMap($nodeList);
+	$table = "";
+	foreach ($nodeList as $val)
+	{
+		$table .= "<tr><td><a href='table.php?id=".$val['id']."'>".$val['id']."</a></td>
+		<td>".$val['coordinates']."</td></tr>";
+	}
+	echo "<form name='updateNodes' action='".$_SERVER['PHP_SELF']."' method='post'>
+	<table class='admin'><tr><th>Node ID</th><th>Node Location</th></tr>";
+	echo $table."</table>";
+}
+else
+{
+	echo "<p>There are currently no existing nodes.</p>";
 }
 echo "
-<input type='submit' name='Submit' value='Submit' />
-</form>
 </div>
 <div id='bottom'></div>
 </div>

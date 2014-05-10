@@ -76,6 +76,16 @@ $sensors = $loggedInUser->getUserSensors();
 if ($sensors)
 {
 	getLocationMap($sensors);
+	$table = "";
+	foreach ($sensors as $val)
+	{
+		$table .= "<tr><td><a href='table.php?id=".$val['id']."'>".$val['id']."</a></td>
+		<td>".$val['coordinates']."</td>
+		<td><input type='checkbox' name='delete[".$val['id']."]' id='delete[".$val['id']."]' value='".$val['id']."'></td></tr>";
+	}
+	echo "<form name='updateNodes' action='".$_SERVER['PHP_SELF']."' method='post'>
+	<table class='admin'><tr><th>Node ID</th><th>Node Location</th><th>Delete</th></tr>";
+	echo $table."</table>";
 }
 else
 {

@@ -1327,7 +1327,6 @@ function getLocationMap($sensors)
 	$maximum_longitude = -180;
 	$minimum_latitude = 180;
 	$minimum_longitude = 180;
-	$table = "";
 	$markers = "";
 	
 	//This loop gets us our range of geocoodinates and grabs our individual location data.
@@ -1350,14 +1349,11 @@ function getLocationMap($sensors)
 			$minimum_longitude = $val['longitude'];
 		}
 		$markers .= "['".$val['id']."', ".$val['latitude'].", ".$val['longitude']."], ";
-		$table .= "<tr><td><a href='table.php?id=".$val['id']."'>".$val['id']."</a></td>
-		<td>".$val['coordinates']."</td>
-		<td><input type='checkbox' name='delete[".$val['id']."]' id='delete[".$val['id']."]' value='".$val['id']."'></td></tr>";
+		
 	}
 	$center_latitude = ($maximum_latitude+$minimum_latitude)/2;
 	$center_longitude = ($maximum_longitude+$minimum_longitude)/2;
 	$markers = substr($markers, 0, strlen($markers)-2);
-
 	echo "
 	<div id='map' style='width: 800px; height: 400px'></div>
 	<script type='text/javascript'>
@@ -1393,12 +1389,7 @@ function getLocationMap($sensors)
 				}
 			})(marker, i));
 		}
-	</script>
-	<p></p>
-	<form name='updateNodes' action='".$_SERVER['PHP_SELF']."' method='post'>
-	<table class='admin'><tr><th>Node ID</th><th>Node Location</th><th>Delete</th></tr>";
-	
-	echo $table."</table>";
+	</script>";
 }
 
 //calculates average value of 1 dimensional array
